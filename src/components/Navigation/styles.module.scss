@@ -1,0 +1,14 @@
+@import '@/styles/_variables.scss';
+
+.navList {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  a {
+    color: $black;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+  }
+}

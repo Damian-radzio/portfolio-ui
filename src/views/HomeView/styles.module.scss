@@ -1,0 +1,19 @@
+@import '@/styles/_variables.scss';
+
+.homeContent {
+  width: 100%;
+  height: 50vh;
+}
+.heroText {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+  span {
+    text-transform: uppercase;
+    background-color: $dark-blue;
+    -webkit-text-stroke: 2px $light-mint;
+    color: $dark-blue;
+    padding: 0 32px;
+    border-radius: 50px;
+  }
+}
