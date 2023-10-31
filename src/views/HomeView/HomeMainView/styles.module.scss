@@ -1,0 +1,36 @@
+@import '@/styles/_variables.scss';
+
+.HomeMainView {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: $main-black;
+
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+.mainTextWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  color: $main-white;
+}
+
+.fullName {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+.profession {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+}
+.longText {
+  margin: 24px 0 48px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}

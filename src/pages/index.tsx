@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import { Poppins } from 'next/font/google';
+import { Lato } from 'next/font/google';
 import HomeView from '@/views/HomeView';
 
-const poppins = Poppins({
-  weight: ['300', '400', '500', '600', '700'],
+const poppins = Lato({
+  weight: ['300', '400', '700'],
   style: ['normal'],
   subsets: ['latin'],
 });

@@ -1,14 +1,28 @@
 @import '@/styles/_variables.scss';
 
+.navbarWrapper {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  padding: 0 48px;
+  top: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linksList {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  font-size: 18px;
+}
 .navList {
   text-align: left;
   display: flex;
-  flex-direction: column;
   gap: 30px;
   a {
-    color: $black;
+    color: $main-black;
     text-decoration: none;
-    text-transform: uppercase;
     list-style: none;
   }
 }

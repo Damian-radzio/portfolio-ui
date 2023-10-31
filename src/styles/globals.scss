@@ -9,5 +9,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: $font-family;
-  background-color: $white;
+  background-color: $main-white;
+  overflow: hidden;
 }
