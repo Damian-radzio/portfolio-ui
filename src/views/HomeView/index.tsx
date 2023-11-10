@@ -1,6 +1,7 @@
 import Triangle from '@/components/Triangle';
-import HomeMainView from './HomeMainView';
+import HomeMainView from './components/HomeMainView';
 import styles from './styles.module.scss';
+import About from './components/About';
 
 const HomeView = (): JSX.Element => {
   return (
@@ -11,6 +12,7 @@ const HomeView = (): JSX.Element => {
         </div>
         <HomeMainView />
       </div>
+      <About />
     </div>
   );
 };

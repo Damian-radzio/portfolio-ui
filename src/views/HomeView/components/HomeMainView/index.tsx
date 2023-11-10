@@ -1,4 +1,4 @@
-import ContactButton from '@/components/ContactButton';
+import ContactButton from '@/components/Button';
 import styles from './styles.module.scss';
 import Triangle from '@/components/Triangle';
 
@@ -6,14 +6,14 @@ const HomeMainView = (): JSX.Element => {
   return (
     <div className={styles.HomeMainView}>
       <div className={styles.mainTextWrapper}>
-        <div className={styles.fullName}>Damian Radecki</div>
-        <div className={styles.profession}>Front-end Developer</div>
-        <div className={styles.longText}>
+        <p className={styles.fullName}>Damian Radecki</p>
+        <p className={styles.profession}>Front-end Developer</p>
+        <p className={styles.longText}>
           Witaj na moim portfolio! Jako Front-end Developer staram się tworzyć
           estetyczne i użyteczne strony internetowe, które nie tylko wyglądają
           dobrze, ale także zapewniają użytkownikom doskonałe doświadczenia.
-        </div>
-        <ContactButton />
+        </p>
+        <ContactButton buttonText={'Napisz do mnie'} />
       </div>
     </div>
   );
